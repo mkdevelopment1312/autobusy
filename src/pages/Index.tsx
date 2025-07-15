@@ -44,8 +44,8 @@ const Index = () => {
                 <Car className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-800">Autokary Lublin</h1>
-                <p className="text-sm text-gray-600">autokarylublin.pl</p>
+                <h1 className="text-xl font-bold text-gray-800">Autokary</h1>
+                <p className="text-sm text-gray-600">Przewozy autokarowe</p>
               </div>
             </div>
 
@@ -140,7 +140,7 @@ const Index = () => {
               Poznaj z nami piękno <span className="text-red-600">Polski!</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Bezpieczne i komfortowe przewozy autokarowe – Autokary Lublin
+              Bezpieczne i komfortowe przewozy autokarowe
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -174,7 +174,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-lg text-gray-600 mb-6">
-                  Firma Autokary Lublin działa od lat w branży przewozów autokarowych, 
+                  Nasza firma działa od lat w branży przewozów autokarowych, 
                   zapewniając bezpieczne i wygodne wyjazdy dla szkół, firm i grup zorganizowanych.
                 </p>
                 <p className="text-lg text-gray-600 mb-8">
@@ -214,7 +214,7 @@ const Index = () => {
               Nasza oferta
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-white">
                 <CardContent className="p-6 text-center">
                   <Users className="w-12 h-12 text-red-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">Wycieczki szkolne</h3>
@@ -224,7 +224,7 @@ const Index = () => {
                 </CardContent>
               </Card>
               
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-white">
                 <CardContent className="p-6 text-center">
                   <Car className="w-12 h-12 text-red-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">Wynajem autokarów</h3>
@@ -234,7 +234,7 @@ const Index = () => {
                 </CardContent>
               </Card>
               
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-white">
                 <CardContent className="p-6 text-center">
                   <MapPin className="w-12 h-12 text-red-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">Przewozy krajowe</h3>
@@ -244,7 +244,7 @@ const Index = () => {
                 </CardContent>
               </Card>
               
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-white">
                 <CardContent className="p-6 text-center">
                   <Clock className="w-12 h-12 text-red-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">Wyjazdy firmowe</h3>
@@ -308,7 +308,7 @@ const Index = () => {
               Kontakt
             </h2>
             <div className="grid lg:grid-cols-2 gap-12">
-              <div>
+              <div className="bg-white p-8 rounded-lg shadow-sm">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-6">Skontaktuj się z nami</h3>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
@@ -356,7 +356,7 @@ const Index = () => {
                 </form>
               </div>
               
-              <div>
+              <div className="bg-white p-8 rounded-lg shadow-sm">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-6">Dane kontaktowe</h3>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center space-x-3">
@@ -365,11 +365,11 @@ const Index = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-red-600" />
-                    <span className="text-gray-700">kontakt@autokarylublin.pl</span>
+                    <span className="text-gray-700">kontakt@autokary.pl</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-red-600" />
-                    <span className="text-gray-700">Lublin, Polska</span>
+                    <span className="text-gray-700">Polska</span>
                   </div>
                 </div>
                 
@@ -395,7 +395,7 @@ const Index = () => {
                 <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
                   <Car className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">Autokary Lublin</span>
+                <span className="text-xl font-bold">Autokary</span>
               </div>
               <p className="text-gray-400">
                 Bezpieczne i komfortowe przewozy autokarowe
@@ -406,8 +406,8 @@ const Index = () => {
               <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
               <div className="space-y-2 text-gray-400">
                 <p>+48 123 456 789</p>
-                <p>kontakt@autokarylublin.pl</p>
-                <p>Lublin, Polska</p>
+                <p>kontakt@autokary.pl</p>
+                <p>Polska</p>
               </div>
             </div>
             
@@ -425,7 +425,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Autokary Lublin. Wszystkie prawa zastrzeżone.</p>
+            <p>&copy; 2024 Autokary. Wszystkie prawa zastrzeżone.</p>
           </div>
         </div>
       </footer>
