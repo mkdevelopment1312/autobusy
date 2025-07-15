@@ -358,8 +358,8 @@ const Index = () => {
         <meta name="subject" content="wynajem autokarów, przewozy autokarowe, transport pasażerski" />
         <meta name="copyright" content="Autokary Lublin" />
         <meta name="owner" content="Autokary Lublin" />
-        <meta name="url" content="https://kamilmaslanka.pl/autobusy" />
-        <meta name="identifier-URL" content="https://kamilmaslanka.pl/autobusy" />
+        <meta name="url" content="https://mkdevelopment1312.github.io/autobusy/" />
+        <meta name="identifier-URL" content="https://mkdevelopment1312.github.io/autobusy/" />
         <meta name="directory" content="submission" />
         <meta name="pagename" content="Wynajem autokarów Lublin" />
         <meta name="Category" content="Transport, Przewozy, Autokar, Bus" />
@@ -372,10 +372,10 @@ const Index = () => {
         <meta property="og:title" content="Wynajem autokarów Lublin - Profesjonalne przewozy autokarowe" />
         <meta property="og:description" content="⭐ Najlepsze przewozy autokarowe z Lublina ⭐ 15+ lat doświadczenia ⭐ Bezpieczeństwo i komfort na najwyższym poziomie ⭐ Przewozy krajowe i zagraniczne" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://kamilmaslanka.pl/autobusy" />
+        <meta property="og:url" content="https://mkdevelopment1312.github.io/autobusy/" />
         <meta property="og:site_name" content="Autokary Lublin" />
         <meta property="og:locale" content="pl_PL" />
-        <meta property="og:image" content="https://kamilmaslanka.pl/autobusy/og-image.jpg" />
+        <meta property="og:image" content="https://mkdevelopment1312.github.io/autobusy/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:type" content="image/jpeg" />
@@ -387,17 +387,17 @@ const Index = () => {
         <meta property="business:contact_data:country_name" content="Polska" />
         <meta property="business:contact_data:email" content="kontakt@autokary.pl" />
         <meta property="business:contact_data:phone_number" content="+48123456789" />
-        <meta property="business:contact_data:website" content="https://kamilmaslanka.pl/autobusy" />
+        <meta property="business:contact_data:website" content="https://mkdevelopment1312.github.io/autobusy/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Wynajem autokarów Lublin - Profesjonalne przewozy autokarowe" />
         <meta name="twitter:description" content="⭐ Najlepsze przewozy autokarowe z Lublina ⭐ 15+ lat doświadczenia ⭐ Bezpieczeństwo i komfort na najwyższym poziomie" />
-        <meta name="twitter:image" content="https://kamilmaslanka.pl/autobusy/og-image.jpg" />
+        <meta name="twitter:image" content="https://mkdevelopment1312.github.io/autobusy/og-image.jpg" />
         <meta name="twitter:site" content="@AutokaryLublin" />
-        <link rel="canonical" href="https://kamilmaslanka.pl/autobusy" />
-        <link rel="alternate" hrefLang="pl" href="https://kamilmaslanka.pl/autobusy" />
+        <link rel="canonical" href="https://mkdevelopment1312.github.io/autobusy/" />
+        <link rel="alternate" hrefLang="pl" href="https://mkdevelopment1312.github.io/autobusy/" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="sitemap" type="application/xml" title="Sitemap" href="https://kamilmaslanka.pl/autobusy/sitemap.xml" />
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="https://mkdevelopment1312.github.io/autobusy/sitemap.xml" />
       </div>
 
       {/* JSON-LD Schema */}
@@ -407,11 +407,11 @@ const Index = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "@id": "https://kamilmaslanka.pl/autobusy",
+            "@id": "https://mkdevelopment1312.github.io/autobusy/",
             "name": "Autokary Lublin",
             "alternateName": "Wynajem autokarów Lublin",
             "description": "Profesjonalne przewozy autokarowe z Lublina. Wynajem autokarów, busów i autobusów. Przewozy krajowe i zagraniczne. 15+ lat doświadczenia.",
-            "url": "https://kamilmaslanka.pl/autobusy",
+            "url": "https://mkdevelopment1312.github.io/autobusy/",
             "telephone": "+48123456789",
             "email": "kontakt@autokary.pl",
             "foundingDate": "2008",
@@ -453,13 +453,13 @@ const Index = () => {
             },
             "priceRange": "$$",
             "image": [
-              "https://kamilmaslanka.pl/autobusy/autokar-1.jpg",
-              "https://kamilmaslanka.pl/autobusy/autokar-2.jpg",
-              "https://kamilmaslanka.pl/autobusy/autokar-3.jpg"
+              "https://mkdevelopment1312.github.io/autobusy/autokar-1.jpg",
+              "https://mkdevelopment1312.github.io/autobusy/autokar-2.jpg",
+              "https://mkdevelopment1312.github.io/autobusy/autokar-3.jpg"
             ],
             "logo": {
               "@type": "ImageObject",
-              "url": "https://kamilmaslanka.pl/autobusy/logo.png",
+              "url": "https://mkdevelopment1312.github.io/autobusy/logo.png",
               "width": "200",
               "height": "200"
             },
